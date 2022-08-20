@@ -32,3 +32,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - Command run lint:
   Run `ng lint` to check error
   Run `ng lint --fix` to check error & fix basic error
+
+## Husky hook
+
+- Usage: check convention code before commit/pull/push
+- [Document](https://www.npmjs.com/package/husky)
+- To add/update a hook: `npx husky set [hook] "[command]"`
+  example: `npx husky set .husky/pre-commit "ng lint"`
